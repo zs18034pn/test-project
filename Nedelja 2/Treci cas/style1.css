@@ -1,0 +1,12 @@
+h1{
+    color: rgb(177, 15, 15);
+    border: 9px dotted gray;
+    text-decoration: underline;
+}
+
+ul li{
+    color: blue;
+}
+ol li{
+    color: green;
+}

@@ -1,0 +1,13 @@
+* {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+li:first-child {
+    color: blue;
+    font-weight: normal;
+}
+
+li:not(:first-child) {
+    color: red;
+    font-weight: bold;
+}
