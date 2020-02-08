@@ -49,6 +49,19 @@
             top: 30px;
             left: 30px;
         }
+
+        table, th, td {
+            border: 1px solid grey;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        table {
+            border-spacing: 2px;
+        }
+        td {
+            padding: 6px;
+        }
     </style>
 
 </head>
@@ -62,4 +75,23 @@
             </div>
         </div>
     </body>
+
+    <table>
+        <caption>Korisnici</caption>
+        <tr>
+            <th>Ime</th>
+            <th>Prezime</th>
+            <th>Adresa</th>
+        </tr>
+        <tr>
+            <td>Zoja</td>
+            <td>Šćekić</td>
+            <td>Dobrota bb</td>
+        </tr>
+        <tr>
+            <td>Balsa</td>
+            <td>Balsic</td>
+            <td colspan="2">Podgorica bb</td>
+        </tr>
+    </table>
 </html>
